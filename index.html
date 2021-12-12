@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOD</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="frontpage">
+    <div class="header">
+        <h4>APOD</h4>
+        <section class="nav">
+            <h4 id="pickDate"><a href="#first">Pick a Date</a></h4>
+            <h4 id="today" onclick="ajaxDefault()"><a href="#second">Today's Picture</a></h4>
+        </section>
+        
+       
+    </ul>
+    </div>
+    <div id="first" class="first">  
+        <div class="maincard">
+        <h1 class="title">Astronomy Picture of the Day</h1>
+        <h3 class="descLanding"> Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</h3>
+        </div>
+        <div class="paralaxImg">
+            
+            <img id="imgFront" data-value="6" src="./image.png">
+        </div>
+    </div>
+    <div class="input">
+        
+        <input type="date" name="date" id="datePicker">
+        <button  class="myButton" onclick="ajaxSpace()"><a href="#second">GET IMAGE</a></button>
+    </div>
+    
+    <div id="second" class="second">
+        <h3 class="ajaxText">Today's Picture</h3>
+        <img id="ajaxImage" src="https://apod.nasa.gov/apod/image/2112/eclipse_apod1024.jpg">
+        <p id="ajaxDesc"></p>
+    </div>
+        
+       
+        
+
+</div>
+
+    
+    
+
+
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="vanillacalendar.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
