@@ -1,11 +1,4 @@
-  ____  ____    ___   ___   
- /    ||    \  /   \ |   \  
-|  o  ||  o  )|     ||    \ 
-|     ||   _/ |  O  ||  D  |
-|  _  ||  |   |     ||     |
-|  |  ||  |   |     ||     |
-|__|__||__|    \___/ |_____|
-                                             
+APOD PROJECT
 
 Esse projeto recebe dados apartir do API da Nasa chamado Astronomy Picture of the Day para exibir a imagem referente a data selecionada
 
